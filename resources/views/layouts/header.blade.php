@@ -20,5 +20,6 @@
   <link href="{{ URL::asset('css/sb-admin-2.min.css') }}" rel="stylesheet">
   <link href="{{ URL::asset('css/bootstrap-colorpicker.css') }}" rel="stylesheet">
   <link href="{{ URL::asset('css/dropzone.css') }}" rel="stylesheet">
+  <link href="{{ URL::asset('css/show_car.css') }}" rel="stylesheet"/>
   <title>@yield('title')</title>
 </head>

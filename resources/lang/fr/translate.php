@@ -111,6 +111,9 @@ return [
     'date'                          => 'Le champs n\'est pas une date valide.',
     'exists'                        => 'la valeur sélectionnée n\'est pas valide.',
     'in'                            => 'la valeur sélectionnée n\'est pas valide.',
+    'details_car'                   => 'Détails voiture',
+    'yes'                           => 'Oui',
+    'no'                            => 'Non'
 
 
 

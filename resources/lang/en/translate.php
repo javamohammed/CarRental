@@ -113,6 +113,9 @@ return [
     'date'                                      => 'The :attribute is not a valid date.',
     'exists'                                    => 'The selected :attribute is invalid.',
     'in'                                        => 'The selected :attribute is invalid.',
+    'details_car'                               => 'Details car',
+    'yes'                                       => 'Yes',
+    'no'                                        => 'No'
 
 
 

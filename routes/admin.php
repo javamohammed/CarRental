@@ -58,8 +58,10 @@ Route::middleware(['auth', 'locale'])->group(function () {
     Route::get('/add-car', 'CarController@create')->name('add-car');
     Route::post('/add-car', 'CarController@store')->name('add-car');
 
-    Route::get('/edit-car/{id_car}', 'CarController@editCar')->name('edit-car');
+    Route::get( '/edit-car/{id_car}/{action}', 'CarController@editCar')->name('edit-car');
     Route::post('/edit-car/{id_car}', 'CarController@update')->name('edit-car');
+
+    Route::get('/show-car/{id_car}/{action}', 'CarController@editCar')->name('show-car');
 
     Route::get('/set-available', 'CarController@setAvailable')->name( 'set-available');
     Route::get( '/all_cars', 'CarController@index')->name( 'all_cars');

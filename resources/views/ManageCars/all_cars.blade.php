@@ -112,9 +112,9 @@
                             <td>{{$car->type_car}}</td>
                             <td>{{$car->purchaseDate}}</td>
                             <td>
-                                <a href="{{url('/edit-car/'.$car->id)}}" class="btn btn-success btn-circle btn-sm"><i class="fas fa-edit"></i></a>
+                                <a href="{{url('/edit-car/'.$car->id)}}/edit" class="btn btn-success btn-circle btn-sm"><i class="fas fa-edit"></i></a>
                                 <a href="#" class="btn btn-danger btn-circle btn-sm"><i class="fas fa-trash-alt"></i></a>
-                                <a href="#" class="btn btn-info btn-circle btn-sm"><i class="fas fa-info-circle"></i></a>
+                                <a href="{{url('/show-car/'.$car->id)}}/show" class="btn btn-info btn-circle btn-sm"><i class="fas fa-info-circle"></i></a>
                             </td>
                         </tr>
                     @endforeach
